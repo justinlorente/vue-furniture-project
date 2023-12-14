@@ -1,0 +1,5 @@
+.Card {
+    &-title {
+        @apply text-pink-400 uppercase;
+    }
+}

@@ -1,5 +1,15 @@
+/* Tailwind */
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@import "components/_home";
+/* Base */
+
+@import '../base/_fonts.css';
+@import '../base/_reset.css';
+
+
+/* Components */
+
+@import "components/_navbar.css"

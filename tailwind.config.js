@@ -10,7 +10,12 @@ export default {
         'icon-user': "url('/assets/images/user-icon.png')",
         'icon-search': "url('/assets/images/search-icon.png')",
         'icon-favorite': "url('/assets/images/favorite-icon.png')",
-        'icon-shop-cart': "url('/assets/images/shopping-cart-icon.png')"
+        'icon-shop-cart': "url('/assets/images/shopping-cart-icon.png')",
+        'hero-section': "url('/assets/images/home-banner.png')"
+      },
+      colors: {
+        'primary': 'var(--color-primary)',
+        'light-beige': 'var(--color-light-beige)',
       }
     },
   },

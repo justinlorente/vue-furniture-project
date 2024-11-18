@@ -3,7 +3,7 @@
     @apply relative mx-auto container;
   }
   &-wrapper {
-    @apply flex flex-col items-center justify-around pt-5;
+    @apply flex flex-col items-center justify-around py-5;
     @apply md:flex-row md:px-4 xl:px-12 xl:pt-8 2xl:w-full 2xl:max-w-[1440px] 2xl:mx-auto;
   }
   &-logo {
@@ -12,14 +12,14 @@
   }
   &-user-interaction {
     @apply absolute right-0 w-full top-0 px-12 bg-[rgba(184,142,47,1)] transition-all ease-in-out duration-500;
-    @apply md:static md:bg-transparent md:flex md:flex-row md:pr-0 md:pl-12 md:justify-center xl:justify-evenly 2xl:justify-center xl:pl-28 2xl:pl-56;
+    @apply md:static overflow-hidden md:bg-transparent md:flex md:flex-row md:pr-0 md:pl-12 md:justify-center xl:justify-evenly 2xl:justify-center xl:pl-28 2xl:pl-56;
 
     &.hide {
-      @apply h-0 invisible overflow-hidden pt-0 transition-all ease-in-out duration-500;
+      @apply h-0 invisible pt-0 transition-all ease-in-out duration-500;
       @apply md:visible md:overflow-auto md:h-auto ;
     }
     &.show {
-      @apply h-screen visible transition-all pt-32 ease-in-out duration-500;
+      @apply h-screen visible z-10 transition-all pt-32 ease-in-out duration-500;
     }
   }
   &-navigation-menu {
@@ -51,8 +51,8 @@
     }
   }
   &-menu-bars {
-    @apply cursor-pointer inline-block absolute right-8;
-    @apply md:hidden;
+    @apply cursor-pointer inline-block absolute right-8 z-20;
+    @apply md:hidden; 
 
     .bar1,
     .bar2,

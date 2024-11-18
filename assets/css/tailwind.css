@@ -8,8 +8,10 @@
 
 @import '../base/_fonts.css';
 @import '../base/_reset.css';
+@import '../base/_variables.css';
 
 
 /* Components */
 
-@import "components/_navbar.css"
+@import "components/_navbar.css";
+@import "components/_hero.css";
